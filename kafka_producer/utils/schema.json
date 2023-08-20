@@ -1,0 +1,7 @@
+{
+    "order_id": {"type": "string"},
+    "uid": {"type": "string"},
+    "session_id": {"type": "string"},
+    "pg_orger_id": {"type": "string"},
+    "pg_payment_id": {"type": "string"}
+}
