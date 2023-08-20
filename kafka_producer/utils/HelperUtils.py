@@ -44,23 +44,6 @@ class HelperUtils:
     def kafka_producer_client(bootstrap_servers):
         return KafkaProducer(bootstrap_servers=bootstrap_servers, acks=1)
 
-    @staticmethod
-    def check_api_key(api_key):
-        def decorator(func):
-            @wraps(func)
-            def wrapper(*args, **kwargs):
-                auth_header = request.headers.get('Authorization')
-
-                # Check if the Authorization header is present and has the correct API key
-                if auth_header == f'Bearer {api_key}':
-                    print(func(*args, **kwargs))
-                    return func(*args, **kwargs)
-                else:
-                    return jsonify({"error": "Unauthorized"}, 401)
-
-            return wrapper
-
-        return decorator
 
 
 

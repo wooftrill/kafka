@@ -1,23 +1,12 @@
-2023-08-20 02:49:35,375 - INFO - Serving on http://0.0.0.0:5001
-2023-08-20 02:50:59,919 - INFO - Serving on http://0.0.0.0:5001
-2023-08-20 02:53:05,391 - INFO - Serving on http://0.0.0.0:5001
-2023-08-20 02:55:53,263 - INFO - Serving on http://0.0.0.0:5001
-2023-08-20 02:56:50,886 - INFO - Serving on http://0.0.0.0:5001
-2023-08-20 02:57:54,552 - INFO - Serving on http://0.0.0.0:5001
-2023-08-20 02:59:19,437 - INFO - Serving on http://0.0.0.0:5001
-2023-08-20 03:01:12,420 - INFO - Serving on http://0.0.0.0:5001
-2023-08-20 03:03:00,877 - INFO - Serving on http://0.0.0.0:5001
-2023-08-20 03:09:43,477 - INFO - Serving on http://0.0.0.0:5001
-2023-08-20 03:09:56,967 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.192.63:9092 <connecting> [IPv4 ('192.168.192.63', 9092)]>: connecting to 192.168.192.63:9092 [('192.168.192.63', 9092) IPv4]
-2023-08-20 03:09:56,967 - INFO - Probing node bootstrap-0 broker version
-2023-08-20 03:09:58,988 - ERROR - Exception occurred: NoBrokersAvailable
-2023-08-20 03:10:00,003 - INFO - Retrying in 1 seconds...
-2023-08-20 03:10:00,010 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.192.63:9092 <connecting> [IPv4 ('192.168.192.63', 9092)]>: connecting to 192.168.192.63:9092 [('192.168.192.63', 9092) IPv4]
-2023-08-20 03:10:00,011 - INFO - Probing node bootstrap-0 broker version
-2023-08-20 03:10:02,025 - ERROR - Exception occurred: NoBrokersAvailable
-2023-08-20 03:10:03,033 - INFO - Retrying in 1 seconds...
-2023-08-20 03:10:03,037 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.192.63:9092 <connecting> [IPv4 ('192.168.192.63', 9092)]>: connecting to 192.168.192.63:9092 [('192.168.192.63', 9092) IPv4]
-2023-08-20 03:10:03,037 - INFO - Probing node bootstrap-0 broker version
-2023-08-20 03:10:05,054 - ERROR - Exception occurred: NoBrokersAvailable
-2023-08-20 03:10:06,070 - INFO - Retrying in 1 seconds...
-2023-08-20 03:13:22,667 - INFO - Serving on http://0.0.0.0:5001
+2023-08-20 10:34:51,250 - INFO - starting
+2023-08-20 10:34:51,343 - INFO - <BrokerConnection node_id=bootstrap-0 host=104.197.228.156:9092 <connecting> [IPv4 ('104.197.228.156', 9092)]>: connecting to 104.197.228.156:9092 [('104.197.228.156', 9092) IPv4]
+2023-08-20 10:34:51,344 - INFO - Probing node bootstrap-0 broker version
+2023-08-20 10:34:51,593 - INFO - <BrokerConnection node_id=bootstrap-0 host=104.197.228.156:9092 <connecting> [IPv4 ('104.197.228.156', 9092)]>: Connection complete.
+2023-08-20 10:34:51,954 - INFO - Broker version identified as 2.5.0
+2023-08-20 10:34:51,954 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-08-20 10:34:52,206 - INFO - <BrokerConnection node_id=0 host=104.197.228.156:9092 <connecting> [IPv4 ('104.197.228.156', 9092)]>: connecting to 104.197.228.156:9092 [('104.197.228.156', 9092) IPv4]
+2023-08-20 10:34:52,455 - INFO - <BrokerConnection node_id=0 host=104.197.228.156:9092 <connecting> [IPv4 ('104.197.228.156', 9092)]>: Connection complete.
+2023-08-20 10:34:52,455 - INFO - <BrokerConnection node_id=bootstrap-0 host=104.197.228.156:9092 <connected> [IPv4 ('104.197.228.156', 9092)]>: Closing connection. 
+2023-08-20 10:34:52,711 - INFO - Message delivered to topic:wt-topic-0 in Partition: 0 with Offset: 13
+2023-08-20 10:34:52,711 - INFO - Closing the Kafka producer with 4294967.0 secs timeout.
+2023-08-20 10:34:52,712 - INFO - <BrokerConnection node_id=0 host=104.197.228.156:9092 <connected> [IPv4 ('104.197.228.156', 9092)]>: Closing connection. 

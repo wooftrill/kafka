@@ -7,6 +7,7 @@ from kafka_producer.application.model.PaymentGwModel import PaymentGwModel
 from kafka_producer.utils.HelperUtils import HelperUtils
 from kafka_producer.application import app
 from kafka_producer.application.service.KafkaProducer import KafkaProducer,kafka_producer
+from functools import wraps
 
 logging.getLogger().setLevel(logging.INFO)
 
@@ -17,8 +18,6 @@ class KafkaProducerController:
 
 
 kafka_producer_controller = KafkaProducerController(kafka_producer)
-
-API_KEY="Wt_opsKafka12if"
 
 
 @app.get('/')
@@ -39,14 +38,27 @@ def cors_preflight():
 app.add_url_rule('/send_to_kafka', view_func=cors_preflight, methods=['OPTIONS'])
 
 
-@app.post('/send_to_kafka',endpoint='send_to_kafka')
-@HelperUtils.check_api_key(API_KEY)
+def check_api_key(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        auth_header = request.headers.get('Authorization')
+        api_key = "Wt_opsKafka12if"
+        if auth_header == f'Bearer {api_key}':
+            return func(*args, **kwargs)
+        else:
+            return jsonify({"error": "Unauthorized"}, 401)
+    return wrapper
+
+
+@app.route('/send_to_kafka', methods=['POST'])
+@check_api_key
 def send_to_kafka():
     """
 
     :return:
     """
     try:
+        logging.info("starting")
         request_json = request.get_json()
         print(request_json)
         if request_json is None:
@@ -71,3 +83,8 @@ def send_to_kafka():
         logging.error(ex)
 
 
+
+@app.route('/send_to_kafka_test', methods=['POST'])
+def test():
+    logging.info("dteeww")
+    return("haaaa")

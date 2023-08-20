@@ -1,3 +1,3 @@
 import os
 
-KAFKA = {"topic":"wt-topic-0","address": "192.168.192.63:9092"}
+KAFKA = {"topic":"wt-topic-0","address": "104.197.228.156:9092"}

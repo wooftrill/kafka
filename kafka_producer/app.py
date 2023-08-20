@@ -9,4 +9,4 @@ if __name__ == "__main__":
     logging.basicConfig(filename='kafka_producer.log',level=logging.INFO,
                         format='%(asctime)s - %(levelname)s - %(message)s')
 
-    serve(app,host="0.0.0.0",port=5001)
+    serve(app,host="0.0.0.0",port=5019)

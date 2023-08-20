@@ -1,6 +1,6 @@
 import os
 import logging
-import time
+import time,json
 
 from kafka_producer.utils.HelperUtils import HelperUtils
 from kafka_producer.config.Config import KAFKA
@@ -21,7 +21,7 @@ class KafkaProducer:
             try:
                 if message:
                     producer = HelperUtils.kafka_producer_client(KAFKA["address"])
-                    response = producer.send(KAFKA["topic"], value=message.encode('utf-8'))
+                    response = producer.send(KAFKA["topic"], value=json.dumps(message).encode('utf-8'))
                     metadata = response.get(timeout=10)
                     logging.info(f'Message delivered to topic:{metadata.topic} in Partition: {metadata.partition} with Offset: {metadata.offset}')
                     producer.close()
