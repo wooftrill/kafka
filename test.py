@@ -9,8 +9,9 @@ api_key = 'Wt_opsKafka12if'  # Replace with an incorrect API key
 
 # Define the JSON data to send in the request body
 data = {
-    "order_id": "1234jj5",
-    "pg_order_id": "67kk890"
+    "session_id": "36141bb3a7ccccb7c733e7bff6b697abe84da8c6",
+    "uid": "ghsgdhsh7873673hwgdhll-jkj-"
+
 }
 
 # Set headers including the Authorization header with the API key

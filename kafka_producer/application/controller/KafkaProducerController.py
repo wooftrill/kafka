@@ -6,18 +6,18 @@ from kafka_producer.application.model.Error import Error
 from kafka_producer.application.model.PaymentGwModel import PaymentGwModel
 from kafka_producer.utils.HelperUtils import HelperUtils
 from kafka_producer.application import app
-from kafka_producer.application.service.KafkaProducer import KafkaProducer,kafka_producer
+from kafka_producer.application.service.kafkaProducerService import kafka_producer_service,KafkaProducerService
 from functools import wraps
 
 logging.getLogger().setLevel(logging.INFO)
 
 
 class KafkaProducerController:
-    def __init__(self,s: KafkaProducer):
+    def __init__(self,s: KafkaProducerService):
         self.service = s
 
 
-kafka_producer_controller = KafkaProducerController(kafka_producer)
+kafka_producer_controller = KafkaProducerController(kafka_producer_service)
 
 
 @app.get('/')
@@ -66,10 +66,11 @@ def send_to_kafka():
             return make_response(jsonify(error, HTTPStatus.BAD_REQUEST))
         else:
             if HelperUtils.validator(request_json):
-                order_id= request_json['order_id']
-                pg_order_id=request_json['pg_order_id']
-                req_body= asdict(PaymentGwModel(order_id,pg_order_id))
-                if kafka_producer_controller.service.producer(req_body):
+                session_id= request_json['session_id']
+                uid=request_json['uid']
+                req_body= asdict(PaymentGwModel(session_id,uid))
+                print(req_body)
+                if kafka_producer_controller.service.produce_to_topic(req_body):
                     return jsonify(True,200)
                 else:
                     error = Error(message="Internal Server Error", type=500, message_id=HTTPStatus.INTERNAL_SERVER_ERROR)
@@ -83,8 +84,3 @@ def send_to_kafka():
         logging.error(ex)
 
 
-
-@app.route('/send_to_kafka_test', methods=['POST'])
-def test():
-    logging.info("dteeww")
-    return("haaaa")
