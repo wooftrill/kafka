@@ -18,3 +18,239 @@
 2023-08-21 20:09:39,597 - INFO - checking if table exist!!...
 2023-08-21 20:09:39,666 - INFO - session closed
 2023-08-21 20:09:39,666 - ERROR - Issue with Inset_to_order function.. 
+2023-08-23 19:57:53,523 - INFO - Serving on http://0.0.0.0:5001
+2023-08-23 19:58:50,756 - INFO - starting
+2023-08-23 19:58:51,187 - INFO - Inserting to Order submit
+2023-08-23 19:58:51,191 - INFO - checking if table exist!!...
+2023-08-23 19:58:51,422 - INFO - session closed
+2023-08-23 19:58:51,422 - ERROR - Issue with Inset_to_order function.. 
+2023-08-23 20:00:21,134 - INFO - Serving on http://0.0.0.0:5001
+2023-08-23 20:00:26,501 - INFO - starting
+2023-08-23 20:00:26,526 - INFO - Inserting to Order submit
+2023-08-23 20:00:26,526 - INFO - checking if table exist!!...
+2023-08-23 20:00:26,595 - INFO - session closed
+2023-08-23 20:00:26,595 - ERROR - Issue with Inset_to_order function.. 
+2023-08-23 20:04:39,638 - INFO - Serving on http://0.0.0.0:5001
+2023-08-23 20:04:43,365 - INFO - starting
+2023-08-23 20:04:43,395 - INFO - Inserting to Order submit
+2023-08-23 20:04:43,395 - INFO - checking if table exist!!...
+2023-08-23 20:04:43,500 - INFO - session closed
+2023-08-23 20:04:43,501 - INFO - corresponding record found
+2023-08-23 20:04:43,501 - INFO - checking if table exist!!...
+2023-08-23 20:04:43,515 - ERROR - local variable 'session' referenced before assignment
+2023-08-23 20:04:43,515 - ERROR - Issue with Inset_to_order function.. 
+2023-08-23 20:06:13,128 - INFO - Serving on http://0.0.0.0:5001
+2023-08-23 20:06:17,396 - INFO - starting
+2023-08-23 20:06:17,415 - INFO - Inserting to Order submit
+2023-08-23 20:06:17,415 - INFO - checking if table exist!!...
+2023-08-23 20:06:17,609 - INFO - session closed
+2023-08-23 20:06:17,609 - INFO - corresponding record found
+2023-08-23 20:06:17,610 - INFO - checking if table exist!!...
+2023-08-23 20:06:17,616 - ERROR - local variable 'session' referenced before assignment
+2023-08-23 20:06:17,617 - ERROR - Issue with Inset_to_order function.. 
+2023-08-25 07:18:34,805 - INFO - Serving on http://0.0.0.0:5001
+2023-08-25 07:20:06,877 - INFO - starting
+2023-08-25 07:20:06,887 - INFO - Inserting to Order submit
+2023-08-25 07:20:06,888 - INFO - checking if table exist!!...
+2023-08-25 07:20:10,993 - ERROR - Error: connection issue (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-08-25 07:20:16,053 - ERROR - Error: connection issue (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-08-25 07:20:21,172 - ERROR - Error: connection issue (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-08-25 07:20:22,184 - ERROR - Could not perform database eration after 3 retries
+2023-08-25 07:20:22,184 - ERROR - Issue with Inset_to_order function.. 
+2023-08-25 07:21:52,662 - INFO - starting
+2023-08-25 07:21:52,686 - INFO - Inserting to Order submit
+2023-08-25 07:21:52,687 - INFO - checking if table exist!!...
+2023-08-25 07:21:53,027 - INFO - session closed
+2023-08-25 07:21:53,028 - INFO - corresponding record found
+2023-08-25 07:21:53,028 - INFO - checking if table exist!!...
+2023-08-25 07:21:53,031 - ERROR - local variable 'session' referenced before assignment
+2023-08-25 07:21:53,031 - ERROR - Issue with Inset_to_order function.. 
+2023-08-25 07:22:24,887 - INFO - starting
+2023-08-25 07:22:24,894 - INFO - Inserting to Order submit
+2023-08-25 07:22:24,894 - INFO - checking if table exist!!...
+2023-08-25 07:22:24,931 - INFO - session closed
+2023-08-25 07:22:24,932 - INFO - corresponding record found
+2023-08-25 07:22:24,932 - INFO - checking if table exist!!...
+2023-08-25 07:22:24,934 - ERROR - local variable 'session' referenced before assignment
+2023-08-25 07:22:24,934 - ERROR - Issue with Inset_to_order function.. 
+2023-08-25 07:30:50,969 - INFO - starting
+2023-08-25 07:30:51,013 - INFO - Inserting to Order submit
+2023-08-25 07:30:51,013 - INFO - checking if table exist!!...
+2023-08-25 07:30:51,066 - INFO - session closed
+2023-08-25 07:30:51,068 - INFO - corresponding record found
+2023-08-25 07:30:51,068 - INFO - checking if table exist!!...
+2023-08-25 07:30:51,076 - ERROR - local variable 'session' referenced before assignment
+2023-08-25 07:30:51,076 - ERROR - Issue with Inset_to_order function.. 
+2023-08-25 07:32:36,619 - INFO - Serving on http://0.0.0.0:5001
+2023-08-25 07:32:40,627 - INFO - starting
+2023-08-25 07:32:40,652 - INFO - Inserting to Order submit
+2023-08-25 07:32:40,652 - INFO - checking if table exist!!...
+2023-08-25 07:32:40,712 - INFO - session closed
+2023-08-25 07:32:40,712 - INFO - corresponding record found
+2023-08-25 07:32:40,712 - INFO - checking if table exist!!...
+2023-08-25 07:32:40,722 - ERROR - issue with query:(pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[{'cost': '595', 'count': 1, 'item_id': '201816_03_01', 'net_cost': 595}, {'cost' at line 1")
+[SQL: INSERT INTO external.tbl_billere VALUES ('ghsgdhsh7873673hwgdhll-jkj-', '36141bb3a7ccccb7c733e7bff6b697abe84da8c6', 'ghghffgdfdfdrgvbvfv', 'ghghghgvbbbbbbbbbbbbbbb', 'hjhjrffffffffffff', 1785, [{'cost': '595', 'count': 1, 'item_id': '201816_03_01', 'net_cost': 595}, {'cost': '595', 'count': 2, 'item_id': '201816_03_02', 'net_cost': 1190}]);]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2023-08-25 07:32:40,722 - INFO - session closed
+2023-08-25 07:32:40,722 - ERROR - Issue with Inset_to_order function.. 
+2023-08-25 07:37:40,338 - INFO - Serving on http://0.0.0.0:5001
+2023-08-25 07:37:57,129 - INFO - starting
+2023-08-25 07:37:57,140 - INFO - Inserting to Order submit
+2023-08-25 07:37:57,140 - INFO - checking if table exist!!...
+2023-08-25 07:37:57,193 - INFO - session closed
+2023-08-25 07:37:57,193 - INFO - corresponding record found
+2023-08-25 07:37:57,193 - INFO - checking if table exist!!...
+2023-08-25 07:37:57,203 - ERROR - issue with query:(pymysql.err.OperationalError) (3140, 'Invalid JSON text: "Missing a name for object member." at position 2 in value for column \'tbl_billere.full_order\'.')
+[SQL: INSERT INTO external.tbl_billere VALUES ('ghsgdhsh7873673hwgdhll-jkj-', '36141bb3a7ccccb7c733e7bff6b697abe84da8c6', 'ghghffgdfdfdrgvbvfv', 'ghghghgvbbbbbbbbbbbbbbb', 'hjhjrffffffffffff', 1785, "[{'cost': '595', 'count': 1, 'item_id': '201816_03_01', 'net_cost': 595}, {'cost': '595', 'count': 2, 'item_id': '201816_03_02', 'net_cost': 1190}]");]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-08-25 07:37:57,203 - INFO - session closed
+2023-08-25 07:37:57,203 - ERROR - Issue with Inset_to_order function.. 
+2023-08-25 07:39:56,976 - INFO - Serving on http://0.0.0.0:5001
+2023-08-25 07:40:02,103 - INFO - starting
+2023-08-25 07:40:02,113 - INFO - Inserting to Order submit
+2023-08-25 07:40:02,113 - INFO - checking if table exist!!...
+2023-08-25 07:40:02,157 - INFO - session closed
+2023-08-25 07:40:02,157 - INFO - corresponding record found
+2023-08-25 07:40:02,157 - INFO - checking if table exist!!...
+2023-08-25 07:40:02,165 - ERROR - issue with query:(pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[{'cost': '595', 'count': 1, 'item_id': '201816_03_01', 'net_cost': 595}, {'cost' at line 1")
+[SQL: INSERT INTO external.tbl_billere VALUES ('ghsgdhsh7873673hwgdhll-jkj-', '36141bb3a7ccccb7c733e7bff6b697abe84da8c6', 'ghghffgdfdfdrgvbvfv', 'ghghghgvbbbbbbbbbbbbbbb', 'hjhjrffffffffffff', 1785, [{'cost': '595', 'count': 1, 'item_id': '201816_03_01', 'net_cost': 595}, {'cost': '595', 'count': 2, 'item_id': '201816_03_02', 'net_cost': 1190}]);]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2023-08-25 07:40:02,165 - INFO - session closed
+2023-08-25 07:40:02,166 - ERROR - Issue with Inset_to_order function.. 
+2023-08-25 07:43:40,730 - INFO - Serving on http://0.0.0.0:5001
+2023-08-25 07:43:54,285 - INFO - starting
+2023-08-25 07:43:54,298 - INFO - Inserting to Order submit
+2023-08-25 07:43:54,298 - INFO - checking if table exist!!...
+2023-08-25 07:43:54,338 - INFO - session closed
+2023-08-25 07:43:54,338 - INFO - corresponding record found
+2023-08-25 07:43:54,339 - INFO - checking if table exist!!...
+2023-08-25 07:43:54,344 - INFO - row inserted!..
+2023-08-25 07:43:54,351 - INFO - session closed
+2023-08-25 07:43:54,351 - INFO - Pushing to kafka
+2023-08-25 07:43:54,352 - INFO - <BrokerConnection node_id=bootstrap-0 host=104.197.228.156:9092 <connecting> [IPv4 ('104.197.228.156', 9092)]>: connecting to 104.197.228.156:9092 [('104.197.228.156', 9092) IPv4]
+2023-08-25 07:43:54,352 - INFO - Probing node bootstrap-0 broker version
+2023-08-25 07:43:56,361 - ERROR - Exception occurred: NoBrokersAvailable
+2023-08-25 07:43:57,368 - INFO - Retrying in 1 seconds...
+2023-08-25 07:43:57,371 - INFO - <BrokerConnection node_id=bootstrap-0 host=104.197.228.156:9092 <connecting> [IPv4 ('104.197.228.156', 9092)]>: connecting to 104.197.228.156:9092 [('104.197.228.156', 9092) IPv4]
+2023-08-25 07:43:57,372 - INFO - Probing node bootstrap-0 broker version
+2023-08-25 07:43:59,397 - ERROR - Exception occurred: NoBrokersAvailable
+2023-08-25 07:44:00,403 - INFO - Retrying in 1 seconds...
+2023-08-25 07:44:00,405 - INFO - <BrokerConnection node_id=bootstrap-0 host=104.197.228.156:9092 <connecting> [IPv4 ('104.197.228.156', 9092)]>: connecting to 104.197.228.156:9092 [('104.197.228.156', 9092) IPv4]
+2023-08-25 07:44:00,406 - INFO - Probing node bootstrap-0 broker version
+2023-08-25 07:44:02,420 - ERROR - Exception occurred: NoBrokersAvailable
+2023-08-25 07:44:03,428 - INFO - Retrying in 1 seconds...
+2023-08-25 07:46:59,470 - INFO - starting
+2023-08-25 07:46:59,481 - INFO - Inserting to Order submit
+2023-08-25 07:46:59,482 - INFO - checking if table exist!!...
+2023-08-25 07:46:59,510 - INFO - session closed
+2023-08-25 07:46:59,511 - INFO - corresponding record found
+2023-08-25 07:46:59,512 - INFO - checking if table exist!!...
+2023-08-25 07:46:59,522 - ERROR - issue with query:(pymysql.err.IntegrityError) (1062, "Duplicate entry 'ghghffgdfdfdrgvbvfv' for key 'tbl_billere.PRIMARY'")
+[SQL: INSERT INTO external.tbl_billere VALUES ('ghsgdhsh7873673hwgdhll-jkj-', '36141bb3a7ccccb7c733e7bff6b697abe84da8c6', 'ghghffgdfdfdrgvbvfv', 'ghghghgvbbbbbbbbbbbbbbb', 'hjhjrffffffffffff', 1785, '[{"cost": "595", "count": 1, "item_id": "201816_03_01", "net_cost": 595}, {"cost": "595", "count": 2, "item_id": "201816_03_02", "net_cost": 1190}]');]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2023-08-25 07:46:59,522 - INFO - session closed
+2023-08-25 07:46:59,522 - ERROR - Issue with Inset_to_order function.. 
+2023-08-25 07:49:24,424 - INFO - starting
+2023-08-25 07:49:24,426 - INFO - Inserting to Order submit
+2023-08-25 07:49:24,426 - INFO - checking if table exist!!...
+2023-08-25 07:49:24,433 - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 736, in _read_bytes
+    data = self._rfile.read(num_bytes)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.2544.0_x64__qbz5n2kfra8p0\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\sqlalchemy\pool\base.py", line 995, in _finalize_fairy
+    asyncio_safe=can_manipulate_connection,
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\sqlalchemy\pool\base.py", line 1440, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\sqlalchemy\engine\default.py", line 657, in do_rollback
+    dbapi_connection.rollback()
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 482, in rollback
+    self._read_ok_packet()
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 442, in _read_ok_packet
+    pkt = self._read_packet()
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 696, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 744, in _read_bytes
+    "Lost connection to MySQL server during query (%s)" % (e,),
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query ([WinError 10053] An established connection was aborted by the software in your host machine)')
+2023-08-25 07:49:24,483 - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 736, in _read_bytes
+    data = self._rfile.read(num_bytes)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.2544.0_x64__qbz5n2kfra8p0\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\sqlalchemy\pool\base.py", line 995, in _finalize_fairy
+    asyncio_safe=can_manipulate_connection,
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\sqlalchemy\pool\base.py", line 1440, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\sqlalchemy\engine\default.py", line 657, in do_rollback
+    dbapi_connection.rollback()
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 482, in rollback
+    self._read_ok_packet()
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 442, in _read_ok_packet
+    pkt = self._read_packet()
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 696, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 744, in _read_bytes
+    "Lost connection to MySQL server during query (%s)" % (e,),
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query ([WinError 10053] An established connection was aborted by the software in your host machine)')
+2023-08-25 07:49:24,647 - INFO - session closed
+2023-08-25 07:49:24,648 - INFO - corresponding record found
+2023-08-25 07:49:24,648 - INFO - checking if table exist!!...
+2023-08-25 07:49:24,664 - ERROR - issue with query:(pymysql.err.IntegrityError) (1062, "Duplicate entry 'ghghffgdfdfdrgvbvfv' for key 'tbl_billere.PRIMARY'")
+[SQL: INSERT INTO external.tbl_billere VALUES ('ghsgdhsh7873673hwgdhll-jkj-', '36141bb3a7ccccb7c733e7bff6b697abe84da8c6', 'ghghffgdfdfdrgvbvfv', 'ghghghgvbbbbbbbbbbbbbbblllll', 'hjhjrffffffffffff', 1785, '[{"cost": "595", "count": 1, "item_id": "201816_03_01", "net_cost": 595}, {"cost": "595", "count": 2, "item_id": "201816_03_02", "net_cost": 1190}]');]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2023-08-25 07:49:24,665 - INFO - session closed
+2023-08-25 07:49:24,665 - ERROR - Issue with Inset_to_order function.. 
+2023-08-25 07:50:00,958 - INFO - starting
+2023-08-25 07:50:00,963 - INFO - Inserting to Order submit
+2023-08-25 07:50:00,963 - INFO - checking if table exist!!...
+2023-08-25 07:50:00,975 - INFO - session closed
+2023-08-25 07:50:00,976 - INFO - corresponding record found
+2023-08-25 07:50:00,976 - INFO - checking if table exist!!...
+2023-08-25 07:50:00,982 - INFO - row inserted!..
+2023-08-25 07:50:00,990 - INFO - session closed
+2023-08-25 07:50:00,990 - INFO - Pushing to kafka
+2023-08-25 07:50:00,996 - INFO - <BrokerConnection node_id=bootstrap-0 host=104.197.228.156:9092 <connecting> [IPv4 ('104.197.228.156', 9092)]>: connecting to 104.197.228.156:9092 [('104.197.228.156', 9092) IPv4]
+2023-08-25 07:50:00,997 - INFO - Probing node bootstrap-0 broker version
+2023-08-25 07:50:01,278 - INFO - <BrokerConnection node_id=bootstrap-0 host=104.197.228.156:9092 <connecting> [IPv4 ('104.197.228.156', 9092)]>: Connection complete.
+2023-08-25 07:50:01,798 - INFO - Broker version identified as 2.5.0
+2023-08-25 07:50:01,798 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-08-25 07:50:02,082 - INFO - <BrokerConnection node_id=0 host=104.197.228.156:9092 <connecting> [IPv4 ('104.197.228.156', 9092)]>: connecting to 104.197.228.156:9092 [('104.197.228.156', 9092) IPv4]
+2023-08-25 07:50:02,380 - INFO - <BrokerConnection node_id=0 host=104.197.228.156:9092 <connecting> [IPv4 ('104.197.228.156', 9092)]>: Connection complete.
+2023-08-25 07:50:02,381 - INFO - <BrokerConnection node_id=bootstrap-0 host=104.197.228.156:9092 <connected> [IPv4 ('104.197.228.156', 9092)]>: Closing connection. 
+2023-08-25 07:50:02,849 - INFO - Message delivered to topic:wt-topic-0 in Partition: 1 with Offset: 15
+2023-08-25 07:50:02,850 - INFO - <BrokerConnection node_id=0 host=104.197.228.156:9092 <connected> [IPv4 ('104.197.228.156', 9092)]>: Closing connection. 
+2023-08-25 07:50:58,417 - INFO - starting
+2023-08-25 07:50:58,419 - INFO - Inserting to Order submit
+2023-08-25 07:50:58,419 - INFO - checking if table exist!!...
+2023-08-25 07:50:58,429 - INFO - session closed
+2023-08-25 07:50:58,429 - INFO - corresponding record found
+2023-08-25 07:50:58,429 - INFO - checking if table exist!!...
+2023-08-25 07:50:58,446 - INFO - row inserted!..
+2023-08-25 07:50:58,452 - INFO - session closed
+2023-08-25 07:50:58,452 - INFO - Pushing to kafka
+2023-08-25 07:50:58,455 - INFO - <BrokerConnection node_id=bootstrap-0 host=104.197.228.156:9092 <connecting> [IPv4 ('104.197.228.156', 9092)]>: connecting to 104.197.228.156:9092 [('104.197.228.156', 9092) IPv4]
+2023-08-25 07:50:58,456 - INFO - Probing node bootstrap-0 broker version
+2023-08-25 07:50:58,706 - INFO - <BrokerConnection node_id=bootstrap-0 host=104.197.228.156:9092 <connecting> [IPv4 ('104.197.228.156', 9092)]>: Connection complete.
+2023-08-25 07:50:59,078 - INFO - Broker version identified as 2.5.0
+2023-08-25 07:50:59,078 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-08-25 07:50:59,356 - INFO - <BrokerConnection node_id=0 host=104.197.228.156:9092 <connecting> [IPv4 ('104.197.228.156', 9092)]>: connecting to 104.197.228.156:9092 [('104.197.228.156', 9092) IPv4]
+2023-08-25 07:50:59,607 - INFO - <BrokerConnection node_id=0 host=104.197.228.156:9092 <connecting> [IPv4 ('104.197.228.156', 9092)]>: Connection complete.
+2023-08-25 07:50:59,607 - INFO - <BrokerConnection node_id=bootstrap-0 host=104.197.228.156:9092 <connected> [IPv4 ('104.197.228.156', 9092)]>: Closing connection. 
+2023-08-25 07:50:59,859 - INFO - Message delivered to topic:wt-topic-0 in Partition: 2 with Offset: 12
+2023-08-25 07:50:59,859 - INFO - <BrokerConnection node_id=0 host=104.197.228.156:9092 <connected> [IPv4 ('104.197.228.156', 9092)]>: Closing connection. 

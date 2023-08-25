@@ -23,12 +23,14 @@ class SQLOrmService(SQLClient):
                 if order_details:
                     logging.info("corresponding record found")
                     request_body["net_total"]=json.loads(order_details[0]["checkout_details"])["net_total"]
-                    request_body["full_order"] = json.loads(order_details[0]["full_order"])
+                    request_body["full_order"] = json.dumps(json.loads(order_details[0]["full_order"]))
                     if request_body:
+                        print("hjh",request_body)
                         if sql_client.insert(self.__biller_table,request_body):
                             return request_body
 
         except Exception as e :
+            logging.info("there is a issue")
             logging.error(e)
 
 

@@ -19,6 +19,7 @@ class KafkaProducerService:
                     return False
                 else:
                     logging.info("Pushing to kafka")
+                    print(sql_response)
                     return kafka_producer.producer(sql_response)
         except Exception as ex :
             logging.exception(ex)

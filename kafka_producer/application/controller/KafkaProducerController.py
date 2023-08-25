@@ -68,7 +68,10 @@ def send_to_kafka():
             if HelperUtils.validator(request_json):
                 session_id= request_json['session_id']
                 uid=request_json['uid']
-                req_body= asdict(PaymentGwModel(session_id,uid))
+                pg_order_id = request_json['pg_order_id']
+                order_id = request_json['order_id']
+                signature = request_json['signature']
+                req_body= asdict(PaymentGwModel(session_id,uid,pg_order_id,order_id,signature))
                 print(req_body)
                 if kafka_producer_controller.service.produce_to_topic(req_body):
                     return jsonify(True,200)

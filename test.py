@@ -9,8 +9,11 @@ api_key = 'Wt_opsKafka12if'  # Replace with an incorrect API key
 
 # Define the JSON data to send in the request body
 data = {
-    "session_id": "36141bb3a7ccccb7c733e7bff6b697abe84da8c6",
-    "uid": "ghsgdhsh7873673hwgdhll-jkj-"
+    "session_id": "ghsgdhsh7873673hwgdhll-jkj-",
+    "uid": "36141bb3a7ccccb7c733e7bff6b697abe84da8c6",
+    "pg_order_id":"ghghffgdfdfdrgvbjhj",
+    "order_id": "ghghghgvbbbbbbbbbbbbbbblllll",
+    "signature": "hjhjrffffffffffff"
 
 }
 
@@ -22,7 +25,7 @@ headers = {
 
 # Send the POST request
 response = requests.post(url, data=json.dumps(data), headers=headers)
-
+print(response.status_code)
 # Check the response status code and handle it accordingly
 if response.status_code == 401:
     print("Unauthorized - Check your API key.")

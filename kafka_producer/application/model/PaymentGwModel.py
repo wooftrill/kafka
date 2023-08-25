@@ -8,3 +8,6 @@ from dataclasses import dataclass
 class PaymentGwModel:
     session_id: str
     uid: str
+    order_id: str
+    pg_order_id: str
+    signature: str
