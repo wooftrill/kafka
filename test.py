@@ -11,9 +11,10 @@ api_key = 'Wt_opsKafka12if'  # Replace with an incorrect API key
 data = {
     "session_id": "ghsgdhsh7873673hwgdhll-jkj-",
     "uid": "36141bb3a7ccccb7c733e7bff6b697abe84da8c6",
-    "pg_order_id":"ghghffgdfdfdrgvbjhj",
+    "pg_order_id":"ghghflfgkkdrk90v0bjhjo",
     "order_id": "ghghghgvbbbbbbbbbbbbbbblllll",
-    "signature": "hjhjrffffffffffff"
+    "signature": "hjhjrffffffffffff",
+    "payment_status": 1
 
 }
 

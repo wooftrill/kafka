@@ -11,3 +11,4 @@ class PaymentGwModel:
     order_id: str
     pg_order_id: str
     signature: str
+    payment_status: int
