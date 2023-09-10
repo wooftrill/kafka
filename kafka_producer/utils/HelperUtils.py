@@ -1,4 +1,4 @@
-import json,logging
+import json,logging,time
 
 from jsonschema import validate
 from kafka import KafkaProducer
@@ -19,6 +19,10 @@ class HelperUtils:
             "pg_order_id": {"type": "string"},
         },
     }
+
+    @staticmethod
+    def get_timestamp():
+        return time.time_ns()
 
     @staticmethod
     def validator(request_body):

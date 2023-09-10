@@ -1,5 +1,5 @@
 import os
 
-KAFKA = {"topic":"wt-topic-0","address": "104.197.228.156:9092"}
+KAFKA = {"topic":"wt-topic-0","address": "34.125.48.86:9092"}
 
-TABLE = {"checkout": "tbl_checkout", "biller": "tbl_biller"}
+TABLE = {"checkout": "tbl_checkout", "metadata": "tbl_payment_metadata_producer","user_session_cart": "tbl_user_session_cart"}

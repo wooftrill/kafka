@@ -56,6 +56,41 @@ class SQLClient:
 
         raise Exception("Could not perform database eration after {} retries".format(max_retries))
 
+    def get_cart(self,table_name,session_id):
+        __min_available = 1
+        max_retries = 3
+        retries = 0
+        logging.info("checking if table exist!!...")
+        while retries < max_retries:
+            try:
+                inspect_db = sa.inspect(self.engine)
+                is_exist = inspect_db.dialect.has_table(self.engine.connect(), table_name, schema="external")
+                if not is_exist:
+                    raise NoSuchTableError
+                else:
+                    curr_session = sessionmaker(bind=self.engine)
+                    session = curr_session()
+                    query = SQLUtils.get_cart_associated_with_session(table_name, session_id)
+                    print(query)
+                    cart_list = []
+                    response = session.execute(text(query))
+                    session.close()
+                    logging.info("session closed")
+                    for res in response:
+                        cart_list.append(res)
+                    return HelperUtils.tupple_to_dict(cart_list,
+                                                      ["cart"])
+            except OperationalError as e:
+                logging.error("Error: connection issue {}".format(e))
+                retries += 1
+                print("in loop")
+                time.sleep(1)
+            except Exception as ex:
+                logging.error("An exception occurred:{}".format(ex))
+                raise ex
+
+        raise Exception("Could not perform database eration after {} retries".format(max_retries))
+
     def insert(self, table_name: str, sql_model: dict):
         try:
             logging.info("checking if table exist!!...")
@@ -87,7 +122,7 @@ class SQLClient:
 
 sql_client = SQLClient()
 
-#k=sql_client.get_record("tbl_checkout","ghsgdhsh7873673hwgdhll-jkj-","36141bb3a7ccccb7c733e7bff6b697abe84da8c6")
+#k=sql_client.get_cart("tbl_user_session_cart","ghsgdhsh7873673hwgdhll-jkj-")
 
 #t=json.loads(k[0]["checkout_details"])["net_total"]
-#print(t)
+#print(type(k))
