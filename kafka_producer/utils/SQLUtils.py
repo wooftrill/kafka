@@ -21,4 +21,4 @@ class SQLUtils:
 
     @staticmethod
     def get_cart_associated_with_session(table_name: str,session_id: str):
-        return f"SELECT distinct cart from external.{table_name} where curr_session='{session_id}' and is_sold=1;"
+        return f"SELECT distinct cart from external.{table_name} where curr_session='{session_id}' and is_sold=0;"

@@ -22,12 +22,13 @@ class SQLOrmService(SQLClient):
             if request_body:
                 order_details = sql_client.get_record(self.__checkout_table,request_body["session_id"],request_body["uid"])
                 cart_details= sql_client.get_cart(self.__user_session_cart_table,request_body["session_id"])
+                if len(cart_details) == 0:
+                    raise Exception ("cart does not have anything")
                 print("yhh",order_details)
                 if order_details:
                     logging.info("corresponding record found")
                     request_body["grand_total"]=json.loads(order_details[0]["checkout_details"])["grand_total"]
                     request_body["ldts"]= HelperUtils.get_timestamp()
-
                     print("hjh", request_body)
                     if request_body:
                         print("hjh",request_body)

@@ -9,10 +9,10 @@ api_key = 'Wt_opsKafka12if'  # Replace with an incorrect API key
 
 # Define the JSON data to send in the request body
 data = {
-    "session_id": "ghsgdhsh7873673hwgikk",
+    "session_id": "KJhfgdfggdgf787re455",
     "uid": "36141bb3a7ccccb7c733e7bff6b697abe84da8c6",
-    "pg_order_id":"ghghflfgkkdkkrk90v0bjhjll",
-    "order_id": "ghghghgvbbbbbbbbbbbbbbbll",
+    "pg_order_id":"ghghfllrror527kll9l898l",
+    "order_id": "00000000-0000-0000-2f0j7-bab195e5bd57kk",
     "signature": "hjhjrffffffffffff",
     "payment_status": 1
 
