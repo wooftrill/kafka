@@ -615,3 +615,131 @@ TypeError: The view function for 'send_to_kafka' did not return a valid response
 2023-09-11 03:41:40,885 - INFO - Message delivered to topic:wt-topic-0 in Partition: 2 with Offset: 6
 2023-09-11 03:41:40,885 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connected> [IPv4 ('34.16.156.238', 9092)]>: Closing connection. 
 2023-09-11 06:19:48,235 - INFO - Serving on http://0.0.0.0:5001
+2023-09-11 06:20:10,715 - INFO - Serving on http://0.0.0.0:5001
+2023-09-11 06:23:16,274 - INFO - starting
+2023-09-11 06:23:16,313 - INFO - Inserting to Order submit
+2023-09-11 06:23:16,313 - INFO - checking if table exist!!...
+2023-09-11 06:23:16,437 - INFO - session closed
+2023-09-11 06:23:16,437 - INFO - checking if table exist!!...
+2023-09-11 06:23:16,467 - INFO - session closed
+2023-09-11 06:23:16,468 - INFO - corresponding record found
+2023-09-11 06:23:16,468 - INFO - checking if table exist!!...
+2023-09-11 06:23:16,507 - INFO - row inserted!..
+2023-09-11 06:23:16,521 - INFO - session closed
+2023-09-11 06:23:16,522 - INFO - Pushing to kafka
+2023-09-11 06:23:16,525 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: connecting to 34.16.156.238:9092 [('34.16.156.238', 9092) IPv4]
+2023-09-11 06:23:16,526 - INFO - Probing node bootstrap-0 broker version
+2023-09-11 06:23:16,749 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: Connection complete.
+2023-09-11 06:23:17,090 - INFO - Broker version identified as 2.5.0
+2023-09-11 06:23:17,091 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-09-11 06:23:17,317 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: connecting to 34.16.156.238:9092 [('34.16.156.238', 9092) IPv4]
+2023-09-11 06:23:17,544 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: Connection complete.
+2023-09-11 06:23:17,544 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connected> [IPv4 ('34.16.156.238', 9092)]>: Closing connection. 
+2023-09-11 06:23:17,782 - INFO - Message delivered to topic:wt-topic-0 in Partition: 2 with Offset: 7
+2023-09-11 06:23:17,782 - INFO - Closing the Kafka producer with 4294967.0 secs timeout.
+2023-09-11 06:23:17,783 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connected> [IPv4 ('34.16.156.238', 9092)]>: Closing connection. 
+2023-09-11 06:33:02,784 - INFO - starting
+2023-09-11 06:33:02,790 - INFO - Inserting to Order submit
+2023-09-11 06:33:02,790 - INFO - checking if table exist!!...
+2023-09-11 06:33:03,429 - INFO - session closed
+2023-09-11 06:33:03,429 - INFO - checking if table exist!!...
+2023-09-11 06:33:03,457 - INFO - session closed
+2023-09-11 06:33:03,457 - INFO - corresponding record found
+2023-09-11 06:33:03,457 - INFO - checking if table exist!!...
+2023-09-11 06:33:03,502 - INFO - row inserted!..
+2023-09-11 06:33:03,522 - INFO - session closed
+2023-09-11 06:33:03,522 - INFO - Pushing to kafka
+2023-09-11 06:33:03,534 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: connecting to 34.16.156.238:9092 [('34.16.156.238', 9092) IPv4]
+2023-09-11 06:33:03,535 - INFO - Probing node bootstrap-0 broker version
+2023-09-11 06:33:03,760 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: Connection complete.
+2023-09-11 06:33:04,103 - INFO - Broker version identified as 2.5.0
+2023-09-11 06:33:04,103 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-09-11 06:33:04,340 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: connecting to 34.16.156.238:9092 [('34.16.156.238', 9092) IPv4]
+2023-09-11 06:33:04,570 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: Connection complete.
+2023-09-11 06:33:04,570 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connected> [IPv4 ('34.16.156.238', 9092)]>: Closing connection. 
+2023-09-11 06:33:04,806 - INFO - Message delivered to topic:wt-topic-0 in Partition: 0 with Offset: 5
+2023-09-11 06:33:04,807 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connected> [IPv4 ('34.16.156.238', 9092)]>: Closing connection. 
+2023-09-11 07:08:31,637 - INFO - starting
+2023-09-11 07:08:31,645 - INFO - Inserting to Order submit
+2023-09-11 07:08:31,645 - INFO - checking if table exist!!...
+2023-09-11 07:08:31,692 - INFO - session closed
+2023-09-11 07:08:31,693 - INFO - checking if table exist!!...
+2023-09-11 07:08:31,726 - INFO - session closed
+2023-09-11 07:08:31,727 - INFO - corresponding record found
+2023-09-11 07:08:31,727 - INFO - checking if table exist!!...
+2023-09-11 07:08:31,753 - INFO - row inserted!..
+2023-09-11 07:08:31,771 - INFO - session closed
+2023-09-11 07:08:31,772 - INFO - Pushing to kafka
+2023-09-11 07:08:31,776 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: connecting to 34.16.156.238:9092 [('34.16.156.238', 9092) IPv4]
+2023-09-11 07:08:31,777 - INFO - Probing node bootstrap-0 broker version
+2023-09-11 07:08:31,992 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: Connection complete.
+2023-09-11 07:08:32,323 - INFO - Broker version identified as 2.5.0
+2023-09-11 07:08:32,324 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-09-11 07:08:32,549 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: connecting to 34.16.156.238:9092 [('34.16.156.238', 9092) IPv4]
+2023-09-11 07:08:32,767 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: Connection complete.
+2023-09-11 07:08:32,767 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connected> [IPv4 ('34.16.156.238', 9092)]>: Closing connection. 
+2023-09-11 07:08:32,990 - INFO - Message delivered to topic:wt-topic-0 in Partition: 0 with Offset: 6
+2023-09-11 07:08:32,991 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connected> [IPv4 ('34.16.156.238', 9092)]>: Closing connection. 
+2023-09-11 07:18:26,876 - INFO - starting
+2023-09-11 07:18:26,881 - INFO - Inserting to Order submit
+2023-09-11 07:18:26,882 - INFO - checking if table exist!!...
+2023-09-11 07:18:26,907 - INFO - session closed
+2023-09-11 07:18:26,908 - INFO - checking if table exist!!...
+2023-09-11 07:18:27,723 - INFO - session closed
+2023-09-11 07:18:27,724 - INFO - corresponding record found
+2023-09-11 07:18:27,724 - INFO - checking if table exist!!...
+2023-09-11 07:18:27,741 - INFO - row inserted!..
+2023-09-11 07:18:27,759 - INFO - session closed
+2023-09-11 07:18:27,760 - INFO - Pushing to kafka
+2023-09-11 07:18:27,763 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: connecting to 34.16.156.238:9092 [('34.16.156.238', 9092) IPv4]
+2023-09-11 07:18:27,767 - INFO - Probing node bootstrap-0 broker version
+2023-09-11 07:18:27,986 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: Connection complete.
+2023-09-11 07:18:28,315 - INFO - Broker version identified as 2.5.0
+2023-09-11 07:18:28,316 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-09-11 07:18:28,543 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: connecting to 34.16.156.238:9092 [('34.16.156.238', 9092) IPv4]
+2023-09-11 07:18:28,757 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: Connection complete.
+2023-09-11 07:18:28,757 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connected> [IPv4 ('34.16.156.238', 9092)]>: Closing connection. 
+2023-09-11 07:18:28,974 - INFO - Message delivered to topic:wt-topic-0 in Partition: 2 with Offset: 8
+2023-09-11 07:18:28,975 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connected> [IPv4 ('34.16.156.238', 9092)]>: Closing connection. 
+2023-09-11 07:24:56,823 - INFO - starting
+2023-09-11 07:24:56,831 - INFO - Inserting to Order submit
+2023-09-11 07:24:56,832 - INFO - checking if table exist!!...
+2023-09-11 07:24:56,859 - INFO - session closed
+2023-09-11 07:24:56,860 - INFO - checking if table exist!!...
+2023-09-11 07:24:56,891 - INFO - session closed
+2023-09-11 07:24:56,891 - INFO - corresponding record found
+2023-09-11 07:24:56,892 - INFO - checking if table exist!!...
+2023-09-11 07:24:56,906 - INFO - row inserted!..
+2023-09-11 07:24:56,917 - INFO - session closed
+2023-09-11 07:24:56,917 - INFO - Pushing to kafka
+2023-09-11 07:24:56,919 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: connecting to 34.16.156.238:9092 [('34.16.156.238', 9092) IPv4]
+2023-09-11 07:24:56,920 - INFO - Probing node bootstrap-0 broker version
+2023-09-11 07:24:57,139 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: Connection complete.
+2023-09-11 07:24:57,456 - INFO - Broker version identified as 2.5.0
+2023-09-11 07:24:57,456 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-09-11 07:24:57,675 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: connecting to 34.16.156.238:9092 [('34.16.156.238', 9092) IPv4]
+2023-09-11 07:24:57,902 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: Connection complete.
+2023-09-11 07:24:57,903 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connected> [IPv4 ('34.16.156.238', 9092)]>: Closing connection. 
+2023-09-11 07:24:58,132 - INFO - Message delivered to topic:wt-topic-0 in Partition: 2 with Offset: 9
+2023-09-11 07:24:58,133 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connected> [IPv4 ('34.16.156.238', 9092)]>: Closing connection. 
+2023-09-11 07:41:13,356 - INFO - starting
+2023-09-11 07:41:13,361 - INFO - Inserting to Order submit
+2023-09-11 07:41:13,362 - INFO - checking if table exist!!...
+2023-09-11 07:41:13,390 - INFO - session closed
+2023-09-11 07:41:13,390 - INFO - checking if table exist!!...
+2023-09-11 07:41:14,288 - INFO - session closed
+2023-09-11 07:41:14,289 - INFO - corresponding record found
+2023-09-11 07:41:14,289 - INFO - checking if table exist!!...
+2023-09-11 07:41:14,310 - INFO - row inserted!..
+2023-09-11 07:41:14,330 - INFO - session closed
+2023-09-11 07:41:14,331 - INFO - Pushing to kafka
+2023-09-11 07:41:14,335 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: connecting to 34.16.156.238:9092 [('34.16.156.238', 9092) IPv4]
+2023-09-11 07:41:14,336 - INFO - Probing node bootstrap-0 broker version
+2023-09-11 07:41:14,552 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: Connection complete.
+2023-09-11 07:41:14,868 - INFO - Broker version identified as 2.5.0
+2023-09-11 07:41:14,868 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-09-11 07:41:15,081 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: connecting to 34.16.156.238:9092 [('34.16.156.238', 9092) IPv4]
+2023-09-11 07:41:15,302 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connecting> [IPv4 ('34.16.156.238', 9092)]>: Connection complete.
+2023-09-11 07:41:15,302 - INFO - <BrokerConnection node_id=bootstrap-0 host=34.16.156.238:9092 <connected> [IPv4 ('34.16.156.238', 9092)]>: Closing connection. 
+2023-09-11 07:41:15,525 - INFO - Message delivered to topic:wt-topic-0 in Partition: 2 with Offset: 10
+2023-09-11 07:41:15,526 - INFO - <BrokerConnection node_id=0 host=34.16.156.238:9092 <connected> [IPv4 ('34.16.156.238', 9092)]>: Closing connection. 
